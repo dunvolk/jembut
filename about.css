@@ -1,0 +1,21 @@
+/* About-specific styling */
+main section {
+    background: linear-gradient(90deg, #1e1e2f, #282846);
+    padding: 20px;
+    color: #c9a47e;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-picture {
+    text-align: center; /* Center the image */
+    margin: 2rem 0; /* Add some space above and below */
+}
+
+.profile-picture img {
+    width: 150px; /* Set a fixed width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it circular */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow for depth */
+}
